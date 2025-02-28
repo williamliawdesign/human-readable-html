@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/editor files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Log files
+*.log
+
+# Configuration files
+*.env
+*.local
+
+# Output files
+output/
+# But keep structure
+!output/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
